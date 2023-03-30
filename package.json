@@ -1,0 +1,25 @@
+{
+  "name": "xyl-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "xyl": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SunRay1017",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1",
+    "path": "^0.12.7"
+  }
+}
